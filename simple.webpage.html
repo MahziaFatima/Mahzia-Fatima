@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page</title>
+    <style>
+        body{
+            margin: 0;
+             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+        }
+        header{
+            text-align: center;
+            align-content: center;
+            background-color: rgb(38, 38, 122);
+            height: 150px;
+            color: white;
+        }
+        nav {
+            background-color: rgb(117, 101, 101);
+            text-align: center;
+            height: 28px;
+        }
+        nav a{
+            color: white;
+            text-decoration: none;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        table, td, th, tr{
+            border: 1px solid;
+            text-align: center;
+        }
+        section{
+            display: flex;
+            margin: 10px;
+            gap: 20px;
+        }
+        article{
+            flex: 2;
+            background-color: rgb(223, 223, 211);
+        }
+        form{
+            margin-top: 15px;
+            padding: 10px;
+        }
+        label{
+            display: block;
+            margin-bottom: 5px;
+
+        }
+        input,textarea,select{
+            width: 100%;
+            padding: 6px;
+            margin-bottom: 10px;
+            border: 1px solid;
+            border-radius: 4px;
+            resize: none;
+        }
+        aside{
+            background-color: rgb(196, 196, 155);
+            flex: 1;
+        }
+        footer{
+        background-color: rgb(17, 17, 17);
+        text-align: center;
+        align-content: center;
+        color: white;
+        height: 50px;
+        }
+        button{
+            background-color: rgb(63, 136, 63);
+        }
+        button :hover{
+           color: aqua;
+        }
+        article, aside{
+        
+            padding: 15px;
+            border: 1px solid;
+            border-radius: 5px;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HTML Curriculum Demo</h1>
+        <p>Learning HTML step by step</p>
+    </header>
+    <nav>
+       <a href="#Text">Text</a>
+       <a href="#Media">Media</a>
+       <a href="#Tables">Tables</a>
+       <a href="#List">Lists</a>
+       <a href="#Forms">Forms</a>
+    </nav>
+    <section>
+        <article>
+            <h2>Text Formating</h2>
+            <p> Bold text ,<i> italic text</i> ,<u>underlined text</u> </p>
+            <hr>
+            <h2>Multimedia</h2>
+            <p>Embedded audio and video </p>
+            <audio controls>
+                 <source src="./audio.mp3" type="audio/mpeg">
+                 Your browser does not support video
+            </audio>
+            <video controls width="100%" >
+                <source src="./video.mp4" type="Video/mp4">
+                Your browser does not support audio
+            </video>
+             <hr>
+                <h3>Tables</h3>
+                <table border="3" width="50%" cellspacing="2" cellpadding="1">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>City</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>John</td>
+                            <td>25</td>
+                            <td>New York</td>
+                        </tr>
+                        <tr>
+                            <td>Sarah</td>
+                            <td>30</td>
+                            <td>London</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr>
+                <h2>Lists</h2>
+                <p>Here's an ordered and nested unordered list</p>
+                <ul>
+                   <li> HTML Basis</li>
+                    <li>CSS Basics</li>
+                    <li>JavaScript Basics</li>
+                </ul>
+                <ul>
+                    <li>Frontend</li>
+                    <ul>
+                        <li>HTML</li>
+                    </ul>
+                    <ul>
+                        <li>CSS</li>
+                    </ul>
+                </ul>
+                <ul>
+                    <li>Backend</li>
+                    <ul>
+                        <li>Node js</li>
+                    </ul>
+                    <ul>
+                        <li>PHP</li>
+                    </ul>
+                </ul>
+            </table>
+            <hr> 
+            <form action="">
+                <h2>Forms</h2>
+                Name:
+                <input type="text" name="Name" id="name" placeholder="ENTER YOUR NAME">
+                Email:
+                <input type="Email" name="Email" placeholder="ENTER YOUR EMAIL">
+                Message:
+                <input type="text" name="Message">
+                Country:
+                <label for="select"></label>
+                <Select name="select" id="select">
+                    <option value="" selected>United States</option>
+                    <option value="korea">Korea</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Turkey">Turkey</option>
+                </select>
+                    <button type="submit" >Submit</button>
+                </form>
+        </article> 
+        <aside>
+            <h3>Quick Links</h3>
+            <li>
+                <a href="">Text Formation</a>  
+            </li>
+            <li>
+                <a href="">Multimedia</a>  
+            </li>
+            <li>
+                <a href="">Tables</a>  
+            </li>
+            <li>
+                <a href="">List</a>  
+            </li>
+            <li>
+                <a href="">Forms</a>  
+            </li>
+            <hr>
+        </aside>
+    </section>
+    <footer>
+        &copy2024 HTML Curriculum Demo. All Rights Reserved.
+    </footer>
+</body>
+</html>
