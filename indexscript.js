@@ -1,34 +1,44 @@
 
-let name ="maha"
-console.log("Hello, My name is ",name) ;
+ let x=20;
+ let person=x>18?
+ 'can drive': 'cannot drive';
+ console.log(person);
 
-let a=5;
-let b=3;
-let add=a+b;
-console.log("the addition of a and b" , add);
-let subtract=a-b;
-console.log("the subtraction of a and b" , subtract);
-let exp=a*b;
-console.log("a*b", exp)
+ let y=10;
+ let number=y>0?
+ 'positive': 'negative';
+ console.log(number);
 
-let x=9
-let number= x%2 ==0 ?
-"Even Number" : "Odd Number" ;
-console.log(number);
+ let accountName ="Maha";
+ console.log("type of accountName is", typeof(accountName))
+ let accountPassword ="1234";
+ console.log("type of accountPassword is", typeof(accountPassword))
+ let phoneNumber= 987654432 ;
+ console.log("type of phoneNumber is", typeof(phoneNumber))
+ console.log(accountName,accountPassword,phoneNumber);
+ console.table({accountName,accountPassword,phoneNumber});
+ console.table([accountName,accountPassword,phoneNumber]);
+ 
+let cost1=67;
+let cost2=647;
+let cost3=228;
+let cost4=830;
+let sum= cost1+cost2+cost3+cost4
+console.log("Total cost of items",sum);
 
-let y=8
-number= y%2 ==0 ?
-"Even Number" : "Odd Number" ;
-console.log(number);
+// Perimeterofrectangle = 2*length+2*breadth
+let length= 2
+let breadth=3
+let Perimeter_of_rectangle =2*length+2*breadth;
+console.log("Perimeter of rectangle is",Perimeter_of_rectangle+"cm");
 
+let z="It is a hot today"
+console.log("the length of str is",z.length);
+console.log("the position of a is", z.indexof("a"));
+console.log("the last occurance  of a" z.lastIndexof("a"));
 
-let z=20;
-let c=z> 15?
-"Greater" : "Smaller" ;
-console.log(c);
-
-let age=19;
-let s=age> 18?
-"Can Vote" : "Can't Vote" ;
-console.log(s);
+let z="It is a hot today"
+console.log("the length of str is",z.length);
+console.log("the position of a is", z.indexof("a"));
+console.log("the last occurance  of a" z.lastIndexof("a"));
 
