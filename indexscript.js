@@ -42,3 +42,32 @@ console.log("the length of str is",z.length);
 console.log("the position of a is", z.indexof("a"));
 console.log("the last occurance  of a" z.lastIndexof("a"));
 
+ //create a new variable greeting by concatenating hello and the name
+let greeting="Hello"
+let name="Maha"
+console.log(greeting+name)
+
+let age=5
+let x=12
+console.log("The age in months is",age*x)
+
+//declare a variable num and assign a number to it 
+let num=10
+if(z=num % 2 == 0){
+    console.log("The number is even")
+}
+else{
+    console.log("The number is odd")
+}
+
+//declare a variable num and assign a number to it 
+let number=0
+if(number>0){
+    console.log("Positive number")
+}
+else if(number<0){
+    console.log("Negative number")
+}
+else{
+    console.log("Zero")
+}
